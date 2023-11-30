@@ -3,7 +3,7 @@ This repository contains the datasets and source code for the Semantic Enhanced 
 
 
 ## Datasets
-The original (filtered), (ULM) tokenized, abbreviation expanded, and abbreviation tokenized & (ULM) tokenized datasets can be found [here](https://drive.google.com/drive/folders/1vjaJGEYyHIVq7ZPq3P_7N_Pc6_q7slS7?usp=sharing).
+The `original (filtered)`, `abbreviation expanded`, `(ULM) tokenized`, and `abbreviation tokenized & (ULM) tokenized` datasets can be found [here](https://drive.google.com/drive/folders/1vjaJGEYyHIVq7ZPq3P_7N_Pc6_q7slS7?usp=sharing).
 
 ## Code
 The source code of SETCS will be uploaded soon.
