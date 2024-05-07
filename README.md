@@ -2,7 +2,7 @@
 This repository contains the datasets and source code for the Semantic Enhanced Transformer for Code Summarization (SETCS) used in our paper entitled "Automatic Code Summarization Using Abbreviation Expansion and Subword Segmentation".
 
 
-### Data preprocessing(Optional)
+### Data Preparation
 The `original (filtered)`, `abbreviation expanded`, `(ULM) tokenized`, and `abbreviation tokenized & (ULM) tokenized` datasets can be found [here](https://drive.google.com/drive/folders/1vjaJGEYyHIVq7ZPq3P_7N_Pc6_q7slS7?usp=sharing). Download `*.tar.gz` and extract it under the `data` folder via `tar -zxvf *.tar.gz`.
 
 
