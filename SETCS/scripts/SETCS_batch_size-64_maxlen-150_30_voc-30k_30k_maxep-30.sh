@@ -21,14 +21,13 @@ function train () {
 echo "============TRAINING============"
 
 RGPU=$1
-MODEL_NAME=$2
 
 PYTHONPATH=$SRC_DIR CUDA_VISIBLE_DEVICES=$RGPU python -W ignore ${SRC_DIR}/SETCS/main/train.py \
 --data_workers 1 \
 --dataset_name java \
 --data_dir ${DATA_DIR}/ \
 --model_dir $MODEL_DIR \
---model_name $MODEL_NAME \
+--model_name SETCS \
 --train_src train/code.${CODE_EXTENSION} \
 --train_src_tokenized train/codeTokenized.${CODE_EXTENSION} \
 --train_tgt train/javadoc.${JAVADOC_EXTENSION} \
@@ -85,7 +84,7 @@ PYTHONPATH=$SRC_DIR CUDA_VISIBLE_DEVICES=$RGPU python -W ignore ${SRC_DIR}/SETCS
 --dataset_name java \
 --data_dir ${DATA_DIR}/ \
 --model_dir $MODEL_DIR \
---model_name $MODEL_NAME \
+--model_name SETCS \
 --dev_src test/code.${CODE_EXTENSION} \
 --dev_src_tokenized test/codeTokenized.${CODE_EXTENSION} \
 --dev_tgt test/javadoc.${JAVADOC_EXTENSION} \
@@ -109,7 +108,7 @@ PYTHONPATH=$SRC_DIR CUDA_VISIBLE_DEVICES=$RGPU python -W ignore ${SRC_DIR}/SETCS
 --dataset_name java \
 --data_dir ${DATA_DIR}/ \
 --model_dir $MODEL_DIR \
---model_name $MODEL_NAME \
+--model_name SETCS \
 --dev_src test/code.${CODE_EXTENSION} \
 --dev_src_tokenized test/codeTokenized.${CODE_EXTENSION} \
 --dev_tgt test/javadoc.${JAVADOC_EXTENSION} \

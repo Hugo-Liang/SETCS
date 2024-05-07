@@ -3,7 +3,7 @@ This repository contains the datasets and source code for the Semantic Enhanced 
 
 
 ### Data preprocessing(Optional)
-The `original (filtered)`, `abbreviation expanded`, `(ULM) tokenized`, and `abbreviation tokenized & (ULM) tokenized` datasets can be found [here](https://drive.google.com/drive/folders/1vjaJGEYyHIVq7ZPq3P_7N_Pc6_q7slS7?usp=sharing).
+The `original (filtered)`, `abbreviation expanded`, `(ULM) tokenized`, and `abbreviation tokenized & (ULM) tokenized` datasets can be found [here](https://drive.google.com/drive/folders/1vjaJGEYyHIVq7ZPq3P_7N_Pc6_q7slS7?usp=sharing). Download `*.tar.gz` and extract it under the `data` folder via `tar -zxvf *.tar.gz`.
 
 
 ### Environment Settings
@@ -21,11 +21,11 @@ pip install -r requirements.txt
 
 
 ### Model Training & Testing
-
-
+```
+cd SETCS/scripts
+bash SETCS_batch_size-64_maxlen-150_30_voc-30k_30k_maxep-30.sh 0
+```
 
 
 ### Get Involved
 Please create a GitHub issue if you have any questions, suggestions, requests or bug-reports.
-
- 
