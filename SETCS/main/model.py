@@ -87,7 +87,7 @@ class Code2NaturalLanguage(object):
     # Learning
     # --------------------------------------------------------------------------
 
-    def replace_unknown(prediction, attn, src_raw):
+    def replace_unknown(self, prediction, attn, src_raw):
         """ ?
             attn: tgt_len x src_len
         """

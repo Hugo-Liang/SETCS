@@ -8,7 +8,7 @@ function make_dir () {
 
 SRC_DIR=../..
 DATA_DIR=${SRC_DIR}/data
-MODEL_DIR=${SRC_DIR}/SETCS
+MODEL_DIR=${SRC_DIR}/outputs/SETCS
 
 make_dir $MODEL_DIR
 
